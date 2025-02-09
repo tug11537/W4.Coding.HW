@@ -7,7 +7,8 @@ myArray.push([1, 2, 3]);
 myArray.push("added string");
 myArray.shift();
 myArray[1] = 345;
-myArray[1] = false;
+myArray[1] = 345;
+myArray[2] = true;
 
 let i = 0;
 while (i < myArray.length) {
