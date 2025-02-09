@@ -7,7 +7,7 @@ myArray.push([1, 2, 3]);
 myArray.push("added string");
 myArray.shift();
 myArray[1] = 345;
-myArray[myArray.length - 1] = false;
+myArray[2] = false;
 
 let i = 0;
 while (i < myArray.length) {
@@ -38,4 +38,4 @@ while (i < myScale.length) {
     }
     i++;
 }
-console.log("Modified myScale array:", myScale);
+console.log("Modified myScale array:", JSON.stringify(myScale));
